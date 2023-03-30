@@ -30,7 +30,7 @@ let weather = {
       document.querySelector(".city").innerText = name + ", " + country;
       //to make png img bigger use @2x.png
       document.querySelector(".icon").src =
-        "https://openweathermap.org/img/wn/" + icon + "@2x.png";
+        "https://openweathermap.org/img/wn/" + icon + ".png";
       document.querySelector(".description").innerText = description;
       //math.floor is to remove decimals.. whole number only
       document.querySelector(".temp").innerText = Math.floor(temp) + "°F";
